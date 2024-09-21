@@ -1,8 +1,25 @@
-# React + Vite
+# GifApp 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositorio del proyecto de GifApp en react con yarn :D
 
-Currently, two official plugins are available:
+## Comandos de Yarn
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para instalar las dependencias del proyecto:
+```bash
+yarn install
+```
+
+Para iniciar el servidor de desarrollo:
+```bash
+yarn start
+```
+
+Para crear una versión de producción:
+```bash
+yarn build
+```
+
+Para ejecutar las pruebas:
+```bash
+yarn test
+```
