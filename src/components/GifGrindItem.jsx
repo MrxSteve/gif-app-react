@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export const GifGrindItem = ({ title, url, id }) => {
-  
-    
-    
 
     return (
     
@@ -14,3 +12,9 @@ export const GifGrindItem = ({ title, url, id }) => {
     
     )
 }
+
+GifGrindItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+}
+
